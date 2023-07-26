@@ -1,8 +1,5 @@
 #ifndef MONTY_H
 #define MONTY_H
-
-#define _GNU_SOURCE
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -56,7 +53,6 @@ typedef struct instruction_s
 char *_realloc(char *ptr, unsigned int old_size, unsigned int new_size);
 ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *content);
-ssize_t custom_getline(char **lineptr, size_t *n, FILE *stream);
 void _fpush(stack_t **h, unsigned int number);
 void _fpall(stack_t **h, unsigned int number);
 void _fpint(stack_t **h, unsigned int number);
