@@ -109,3 +109,5 @@ fn main() {
 ## Standard Library
 
 Monty comes with a rich standard library that provides numerous modules for various purposes. You can find the official documentation for the standard library [here](https://monty-lang.org/docs/standard-library).
+
+## Authors (Matilda & Phillipa)
